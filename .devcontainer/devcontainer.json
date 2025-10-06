@@ -1,0 +1,7 @@
+{
+  "name": "angular",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "postCreateCommand": "npm i -g @angular/cli && npm ci || npm i",
+  "customizations": { "vscode": { "extensions": ["angular.ng-template","esbenp.prettier-vscode","dbaeumer.vscode-eslint"] } },
+  "forwardPorts": [4200]
+}
